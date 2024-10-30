@@ -1,0 +1,23 @@
+.courier_address_postcode_group {
+  width:75%;
+  float:left;
+}
+.courier_address_postcode_group_price {
+  width:15%;
+  float:right;
+}
+.clear-both {
+  clear:both;
+}
+.toplevel_page_courier-address h2 a {
+  font-size:0.8em;
+  font-weight:normal;
+}
+.toplevel_page_courier-address #wpbody-content form {
+  background-image:url(/wp-content/plugins/courier-address/assets/screenshot-1.png);
+  background-position:top right;
+  background-repeat:no-repeat;
+}
+.toplevel_page_courier-address .shortcodes-list {
+  width:500px;
+}

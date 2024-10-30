@@ -1,0 +1,4 @@
+msgfmt courier-address-en_EN.po -o courier-address-en_EN.mo
+msgfmt courier-address-en_US.po -o courier-address-en_US.mo
+msgfmt courier-address-hu_HU.po -o courier-address-hu_HU.mo
+

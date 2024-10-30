@@ -1,0 +1,76 @@
+/* ----------------- info hidden by default ----------------- */
+.courier-address-data.lat,
+.courier-address-data.lng,
+.courier-address-data.type,
+.courier-address-data.type-validates,
+.distance-data,
+.courier-address-options,
+.result-data,
+.courier-address-data.postal_code_price,
+input.wpcf7-result-container,
+span.courier-address-js-validation {
+  display:none;
+}
+
+/* ----------------- non-input INPUT fields ----------------- */
+.courier-address-data.district,
+.courier-address-data.postal_code,
+.courier-address-data.postal_code_price,
+.wpcf7-form-control-wrap .wpcf7-courier-address-distance,
+.result-container-explanation {
+  border:none;
+  background-color:Transparent;
+  font-style:italic;
+}
+
+/* ----------------- address ----------------- */
+/* courier-address-js-validation messages */
+.courier-address-level-110-not-valid .courier-address-level-110-not-valid-message,
+.courier-address-level-120-not-valid .courier-address-level-120-not-valid-message,
+.courier-address-level-130-not-valid .courier-address-level-130-not-valid-message,
+.courier-address-level-140-not-valid .courier-address-level-140-not-valid-message {
+  display:block;
+}
+
+/* address parts */
+.courier-address-data.district,
+.courier-address-data.postal_code_price,
+.courier-address-data.postal_code {
+  width:80px;
+}
+
+/* ----------------- distance and map ----------------- */
+.wpcf7-form-control-wrap .wpcf7-courier-address-distance {
+  display:none;
+}
+.wpcf7-form-control-wrap.courier-address-has-value .wpcf7-courier-address-distance {
+  display:block;
+}
+.wpcf7-form-control-wrap .courier-address-distance-map-canvas {
+  display:none;
+}
+.wpcf7-form-control-wrap.courier-address-has-map .courier-address-distance-map-canvas {
+  display:block;
+}
+
+.courier-address-distance-map-canvas {
+  border:1px solid #999;
+  display:block;
+}
+
+body .sent .wpcf7-form-control-wrap.courier-address-has-map .courier-address-distance-map-canvas {
+  /* after form is AJAX submitted */
+  display:none;
+}
+
+/* ----------------- validation errors ----------------- */
+.wpcf7-js-not-valid-tip {
+  color: #f00;
+  font-size: 1em;
+  display: block;
+}
+.wpcf7-not-valid .wpcf7-courier-address {
+  border:1px solid red;
+}
+
+

@@ -1,0 +1,25 @@
+# PO language file for the courier-address project
+# https://www.gnu.org/savannah-checkouts/gnu/gettext/manual/html_node/PO-Files.html
+# Project-Id-Version: courier-address
+# Report-Msgid-Bugs-To: <annesley_newholm@yahoo.it>
+# POT-Creation-Date: 2014-07-21 04:00+0730
+# PO-Revision-Date: 2014-07-21 04:00+0730
+# Last-Translator: annesley_newholm@yahoo.it
+# Number-Translations: 6
+# Folder: /var/www/wordpress/wordpress/wordpress-4.4.2/wp-content/plugins/courier-address
+# msgfmt courier-address-en_EN.po -o courier-address-en_EN.mo
+# Creation DateTime: 2015-04-23T12:18:19+02:00
+
+msgid "postcode"
+msgstr "irányítószám"
+msgid "district"
+msgstr "kerület"
+msgid "postal code price"
+msgstr "postai irányítószám ár"
+msgid "Address is not accurate enough. Please enter a street."
+msgstr "Cím nem elég pontos. Kérjük, adjon meg egy utca."
+msgid "Address is not accurate enough. Please enter a complete street address."
+msgstr "Kérjük, add meg a pontos címet és irányítószámot!"
+msgid "We do not deliver to this area."
+msgstr "Mi nem szállít ezen a területen."
+
